@@ -1,4 +1,11 @@
 
+/*Colors
+
+ rgba(19, 128, 36, 0);
+
+*/
+
+
 html,
 body {
     height: 100%;
@@ -254,4 +261,38 @@ body {
     padding: 140px 0;
     background-size: cover;
     color: white;
+}
+
+/* SECTION CARDS */
+
+#section-cards h2 {
+    text-align: center;
+}
+
+#section-cards {
+    padding: 5rem 0;
+}
+
+.card {
+    margin-top: 3rem;
+}
+
+.card a {
+    color: rgba(19, 128, 36, 0.9);
+}
+
+.card a:hover {
+    color: rgb(19, 128, 36);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    transition: 1s;
+}
+
+.card img:hover {
+    -ms-transform: scale(0.98); /* IE 9 */
+    -webkit-transform: scale(0.98); /* Safari */
+    transform: scale(0.98);
 }
