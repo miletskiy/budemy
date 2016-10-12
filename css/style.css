@@ -341,3 +341,47 @@ body {
 .num-content p {
   padding-top: 15px;
 }
+
+/* SECTION TESTIMONIALS */
+
+.section-testimonials {
+  padding-top: 5rem;
+}
+
+.section-testimonials h2 {
+  text-align: center;
+}
+
+.testimonial {
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.mario-img,
+.monka-img,
+.monice-img {
+  width: 115px;
+  height: auto;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.mario-img:hover,
+.monka-img:hover,
+.monice-img:hover {
+    transition: 0.5s;
+    transform: scale(0.95);
+}
+
+blockquote {
+    font-family: 'Nunito-Regular';
+}
+
+.fa.fa-quote-right {
+    margin-right: 10px;
+}
+
+.testimonials-hr {
+    border-top: 1px solid rgb(19, 128, 36);
+    background-color: rgb(19, 128, 36);
+}
