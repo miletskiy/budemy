@@ -296,3 +296,48 @@ body {
     -webkit-transform: scale(0.98); /* Safari */
     transform: scale(0.98);
 }
+
+/* SECTION NUMBERS */
+
+.section-numbers {
+    background-color: white;
+    padding-top: 5rem;
+  /*padding-bottom: 5rem;*/
+}
+
+.section-numbers h2 {
+    text-align: center;
+}
+
+.num {
+  text-align: center;
+  margin-left: 80px;
+  padding: 5rem 0;
+/*  padding-bottom: 5rem;*/
+}
+
+.num .num-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.num-content{
+  display: table;
+  color:white;
+  font-size: 20px;
+  line-height: 20px;
+  width: 140px;
+  height: 140px;
+  background-color: rgba(19, 128, 36, 0.9  );
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.num-content:hover {
+  color: #222;
+  transition: 0.3s;
+}
+
+.num-content p {
+  padding-top: 15px;
+}
