@@ -437,3 +437,75 @@ input.form-control:focus {
     background-color: rgba(19, 128, 36, 0.8);
     transition: 0.5s;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #222;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 25px;
+    padding-right: 25px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: 0.3s;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #833ab4;
+}
+
+.fa-twitter-square:hover {
+    color: #00aced;
+}
+
+.fa-google-plus-square:hover {
+    color: #dd4b39;
+}
+
+.fa-facebook-square,
+.fa-instagram,
+.fa-twitter-square,
+.fa-google-plus-square {
+    transition: 0.3s;
+}
+
+footer p {
+    color: #888;
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.fa-chevron-circle-up {
+    margin-top: 25px;
+    color: rgb(14, 96, 27);
+    transition: 0.3s;
+}
+
+.fa-chevron-circle-up:hover {
+    color: rgba(14, 96, 27, 0.8);
+    transition: 0.3s;
+}
