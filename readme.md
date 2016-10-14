@@ -12,7 +12,9 @@
 * [Selection the fonts](http://fontpair.co/)
 * [Compressing the images](https://tinypng.com/)
 
+### Inspiration
+* [Flat designs](http://www.fltdsgn.com/)
+* [Landings](http://land-book.com/)
 
-
-
-
+### Chrome plugin
+* [Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh)

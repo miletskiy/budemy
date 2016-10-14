@@ -5,7 +5,6 @@
 
 */
 
-
 html,
 body {
     height: 100%;
@@ -93,6 +92,7 @@ body {
     margin: 30px auto 0;
 }
 
+
 /* SPANS */
 
 .bold-green {
@@ -178,8 +178,8 @@ body {
 }
 
 
-
 /* grey line*/
+
 .timeline:before {
     position: absolute;
     top: 0;
@@ -249,9 +249,11 @@ body {
 .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
 }
+
 .fa-clock-o {
     padding-right: 3px;
 }
+
 
 /* SECTION PARALLAX */
 
@@ -262,6 +264,7 @@ body {
     background-size: cover;
     color: white;
 }
+
 
 /* SECTION CARDS */
 
@@ -292,17 +295,18 @@ body {
 }
 
 .card img:hover {
-    -ms-transform: scale(0.98); /* IE 9 */
-    -webkit-transform: scale(0.98); /* Safari */
+    -ms-transform: scale(0.98);/* IE 9 */
+    -webkit-transform: scale(0.98);/* Safari */
     transform: scale(0.98);
 }
+
 
 /* SECTION NUMBERS */
 
 .section-numbers {
     background-color: white;
     padding-top: 5rem;
-  /*padding-bottom: 5rem;*/
+    /*padding-bottom: 5rem;*/
 }
 
 .section-numbers h2 {
@@ -310,60 +314,61 @@ body {
 }
 
 .num {
-  text-align: center;
-  margin-left: 80px;
-  padding: 5rem 0;
-/*  padding-bottom: 5rem;*/
+    text-align: center;
+    margin-left: 80px;
+    padding: 5rem 0;
+    /*  padding-bottom: 5rem;*/
 }
 
 .num .num-content {
-  display: table-cell;
-  vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 
-.num-content{
-  display: table;
-  color:white;
-  font-size: 20px;
-  line-height: 20px;
-  width: 140px;
-  height: 140px;
-  background-color: rgba(19, 128, 36, 0.9  );
-  border-radius: 50%;
-  transition: 0.3s;
+.num-content {
+    display: table;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    width: 140px;
+    height: 140px;
+    background-color: rgba(19, 128, 36, 0.9);
+    border-radius: 50%;
+    transition: 0.3s;
 }
 
 .num-content:hover {
-  color: #222;
-  transition: 0.3s;
+    color: #222;
+    transition: 0.3s;
 }
 
 .num-content p {
-  padding-top: 15px;
+    padding-top: 15px;
 }
+
 
 /* SECTION TESTIMONIALS */
 
 .section-testimonials {
-  padding-top: 5rem;
+    padding-top: 5rem;
 }
 
 .section-testimonials h2 {
-  text-align: center;
+    text-align: center;
 }
 
 .testimonial {
-  margin-top: 5rem;
-  padding-bottom: 5rem;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .mario-img,
 .monka-img,
 .monice-img {
-  width: 115px;
-  height: auto;
-  border-radius: 50%;
-  transition: 0.5s;
+    width: 115px;
+    height: auto;
+    border-radius: 50%;
+    transition: 0.5s;
 }
 
 .mario-img:hover,
@@ -384,4 +389,51 @@ blockquote {
 .testimonials-hr {
     border-top: 1px solid rgb(19, 128, 36);
     background-color: rgb(19, 128, 36);
+}
+
+
+/* SECTION CONTACT */
+
+.section-contact h2 {
+    text-align: center;
+}
+
+.section-contact {
+    padding: 10rem 0;
+    background-color: white;
+    font-size: 20px;
+}
+
+.section-contact .control-label {
+    line-height: 80%;
+    margin-top: 10px;
+}
+
+.section-contact .form-control {
+    font-family: 'Nunito-Regular';
+}
+
+.form-horizontal {
+    padding-top: 5rem;
+}
+
+textarea#message:focus,
+input.form-control:focus {
+    border-color: rgba(19, 128, 36, 1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 2px rgba(231, 76, 60, 0.05);
+    /*outline: 0 none;*/
+}
+
+.section-contact .btn.btn-success {
+    background-color: rgba(19, 128, 36, 1);
+    border: 1px solid rgba(19, 128, 36, 1);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 5rem;
+    transition: 0.5s;
+}
+
+.section-contact .btn.btn-success:hover {
+    background-color: rgba(19, 128, 36, 0.8);
+    transition: 0.5s;
 }
