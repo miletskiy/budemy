@@ -27,3 +27,9 @@ $('a[href^="#"]').on('click', function(e){
         window.location.hash = hash;
     });
 })
+
+$('.js-waypoint').waypoint(function(direction){
+    $('.js-waypoint').addClass('animated fadeInDown');
+}, {
+    offset: '50%'
+});
