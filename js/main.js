@@ -1,9 +1,6 @@
 
-// $('a').click(function () {
-//   alert("Hello, World!");
-// });
 $(document).ready(function(){
-    var screenHeight = 720;
+    var screenHeight = 910;
     // console.log($(window).height());
     // console.log($(document).height());
     $(window).scroll(function(){

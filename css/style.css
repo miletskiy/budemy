@@ -530,3 +530,129 @@ footer p {
 .js-waypoint-rightFlip.animated {
     opacity: 1;
 }
+
+/*   */
+
+@media only screen and (max-width: 1680px) {
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 16rem 20rem 10rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .moto {
+        margin-left: 200px;
+    }
+    .fa-arrow-down {
+        margin-left: 26rem;
+    }
+    .social-links {
+        padding-left: 0;
+        font-size: 14px;
+    }
+    .social-links li {
+        padding-right: 20px;
+    }
+    .num {
+        margin-left: 50px;
+    }
+    .mario-img, .monka-img, .monice-img {
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 992px) { 
+    .container{
+        max-width: 840px;
+    }
+    .fa-arrow-down {
+        margin-left: 24rem;
+    }
+    .num {
+        margin-left: 30px;
+    }
+    .mario-img, .monka-img, .monice-img {
+        width: 80px;
+    }
+    .social-links li {
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 768px) { 
+    .container{
+        max-width: 680px;
+    }
+    .fa-arrow-down {
+        margin-left: 21rem;
+    }
+    .num {
+        margin-left: -10px;
+    }
+    .mario-img, .monka-img, .monice-img {
+        width: 60px;
+    }
+    .social-links li {
+        padding-right: 2px;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .container {
+        max-width: 600px;
+    }
+    .wall-sticker{
+        font-size: 3rem;
+        padding: 14rem 16rem 16rem 2rem;
+    }
+    .moto {
+        font-size: 2.5rem;
+    }
+    .fa-arrow-down {
+        margin-left: 18rem;
+    }
+    .num-content {
+        height: 120px;
+        width: 120px;
+    }
+    .social-links li a i {
+        font-size: 2.2em;
+    }
+}
+
+@media only screen and (max-width: 544px) { 
+    .wall-sticker{
+        font-size: 5rem;
+        padding: 8rem 0rem 4rem 2rem;
+    }
+    .moto {
+        margin-left: 0;
+    }
+    .fa-arrow-down {
+        margin-left: 13rem;
+        margin-bottom: 2rem;
+    }
+    .num {
+        display: inline-block;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .mario-img, .monka-img, .monice-img {
+        width: 160px;
+        padding-bottom: 2rem;
+    }
+    .testimonial {
+        margin-top: 2rem;
+        padding-bottom: 0rem; 
+    }
+    .social-links {
+        float: none;
+        font-size: 16px;
+    }
+    .social-links li {
+        padding-right: 20px;
+    }
+    .social-links li a i {
+        font-size: 3em;
+    }
+}
