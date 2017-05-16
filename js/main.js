@@ -33,3 +33,27 @@ $('.js-waypoint').waypoint(function(direction){
 }, {
     offset: '50%'
 });
+
+$('.js-waypoint-left').waypoint(function(direction){
+    $('.js-waypoint-left').addClass('animated slideInLeft');
+}, {
+    offset: '50%'
+});
+
+$('.js-waypoint-right').waypoint(function(direction){
+    $('.js-waypoint-right').addClass('animated slideInRight');
+}, {
+    offset: '50%'
+});
+
+$('.js-waypoint-leftFlip').waypoint(function(direction){
+    $('.js-waypoint-leftFlip').addClass('animated flipInY');
+}, {
+    offset: '50%'
+});
+
+$('.js-waypoint-rightFlip').waypoint(function(direction){
+    $('.js-waypoint-rightFlip').addClass('animated flipInY');
+}, {
+    offset: '50%'
+});

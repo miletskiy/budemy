@@ -515,3 +515,18 @@ footer p {
 .js-waypoint.animated {
     opacity: 1;
 }
+
+.js-waypoint-left,
+.js-waypoint-right,
+.js-waypoint-leftFlip,
+.js-waypoint-rightFlip {
+    opacity: 0;
+    /*animation-delay: 0.9s;*/
+}
+
+.js-waypoint-left.animated,
+.js-waypoint-right.animated,
+.js-waypoint-leftFlip.animated,
+.js-waypoint-rightFlip.animated {
+    opacity: 1;
+}
