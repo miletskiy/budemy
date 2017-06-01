@@ -7,9 +7,9 @@ $(document).ready(function(){
 
         // console.log($(window).scrollTop());
         if($(window).scrollTop() > screenHeight){
-            $('.navbar').addClass('navbar-fixed-top');
+            $('.navbar').addClass('fixed-top');
         } else{
-            $('.navbar').removeClass('navbar-fixed-top');
+            $('.navbar').removeClass('fixed-top');
         }
     })
 });
@@ -17,13 +17,13 @@ $('a[href^="#"]').on('click', function(e){
     e.preventDefault();
 
     var hash = this.hash;
- 
+
     $('html, body').animate({
         scrollTop: $(hash).offset().top
     }, 400, function(){
         window.location.hash = hash;
     });
-})
+});
 
 $('.js-waypoint').waypoint(function(direction){
     $('.js-waypoint').addClass('animated fadeInDown');
