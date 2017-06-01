@@ -40,21 +40,36 @@ body {
 }
 
 .wall-sticker {
-    padding: 8rem 20rem 6rem 3rem;
+    /*padding: 8rem 20rem 6rem 3rem;*/
     font-family: 'Cubano-Regular', Arial, sans-serif;
     font-size: 5rem;
     color: white;
-    background: rgba(0, 0, 0, 0.4);
+    /*background: rgba(0, 0, 0, 0.4);*/
+    margin: auto;
 }
 
 .moto {
     font-family: 'Cubano-Regular', Arial, sans-serif;
     font-size: 3rem;
-    margin-top: 8rem;
-    margin-left: 130px;
+    /*margin-top: 8rem;*/
+    /*margin-left: 130px;*/
     text-align: center;
 }
 
+.left-column{
+       flex: 1;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+.right-column{
+    align-self: center;
+}
+.moto a {
+    display: block;
+}
+.height100{
+    height:100%;
+}
 
 /*BUTTONS*/
 
@@ -80,8 +95,8 @@ body {
 }
 
 .fa-arrow-down {
-    margin-left: 28rem;
-    margin-top: 50px;
+    /*margin-left: 28rem;*/
+    /*margin-top: 50px;*/
     font-size: 2.5rem;
     color: white;
 }
@@ -325,8 +340,8 @@ body {
 }
 
 .num {
-    text-align: center;
-    margin-left: 80px;
+    /*text-align: center;*/
+    /*margin-left: 80px;*/
     padding: 5rem 0;
     /*  padding-bottom: 5rem;*/
 }
@@ -550,16 +565,16 @@ footer p {
 @media only screen and (max-width: 1680px) {
     .wall-sticker {
         font-size: 5rem;
-        padding: 16rem 20rem 10rem 3rem;
+        /*padding: 16rem 20rem 10rem 3rem;*/
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .moto {
-        margin-left: 200px;
+        /*margin-left: 200px;*/
     }
     .fa-arrow-down {
-        margin-left: 26rem;
+        /*margin-left: 26rem;*/
     }
     .social-links {
         padding-left: 0;
@@ -569,7 +584,7 @@ footer p {
         padding-right: 20px;
     }
     .num {
-        margin-left: 50px;
+        /*margin-left: 50px;*/
     }
     .mario-img, .monka-img, .monice-img {
         width: 100px;
@@ -580,10 +595,10 @@ footer p {
         max-width: 840px;
     }
     .fa-arrow-down {
-        margin-left: 24rem;
+        /*margin-left: 24rem;*/
     }
     .num {
-        margin-left: 30px;
+        /*margin-left: 30px;*/
     }
     .mario-img, .monka-img, .monice-img {
         width: 80px;
@@ -597,10 +612,10 @@ footer p {
         max-width: 680px;
     }
     .fa-arrow-down {
-        margin-left: 21rem;
+        /*margin-left: 21rem;*/
     }
     .num {
-        margin-left: -10px;
+        /*margin-left: -10px;*/
     }
     .mario-img, .monka-img, .monice-img {
         width: 60px;
@@ -616,13 +631,13 @@ footer p {
     }
     .wall-sticker{
         font-size: 3rem;
-        padding: 14rem 16rem 16rem 2rem;
+        /*padding: 14rem 16rem 16rem 2rem;*/
     }
     .moto {
         font-size: 2.5rem;
     }
     .fa-arrow-down {
-        margin-left: 18rem;
+        /*margin-left: 18rem;*/
     }
     .num-content {
         height: 120px;
@@ -633,17 +648,22 @@ footer p {
     }
 }
 
+@media (min-width: 576px){
+.form-inline .form-control {
+    width: 100%;
+    flex: 1;
+}
+}
+
+
 @media only screen and (max-width: 544px) {
     .wall-sticker{
         font-size: 5rem;
-        padding: 8rem 0 4rem 2rem;
-    }
-    .moto {
-        margin-left: 0;
+        /*padding: 8rem 0 4rem 2rem;*/
     }
     .fa-arrow-down {
-        margin-left: 13rem;
-        margin-bottom: 2rem;
+        /*margin-left: 13rem;*/
+        /*margin-bottom: 2rem;*/
     }
     .num {
         display: inline-block;
@@ -670,3 +690,4 @@ footer p {
         font-size: 3em;
     }
 }
+
