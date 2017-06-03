@@ -53,9 +53,3 @@ $('.js-waypoint-rightFlip').waypoint(function (direction) {
 }, {
     offset: '50%'
 });
-
-
-// Hide menu after click on the section. @Kostyl edition
-$('.navbar-nav a').on('click', function () {
-    $('.navbar-toggler').click();
-});
