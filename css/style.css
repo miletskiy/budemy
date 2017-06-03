@@ -17,6 +17,10 @@ ul {
     padding-left: 0;
 }
 
+h2 {
+    text-align: center;
+}
+
 /*FONT FACES*/
 
 @font-face {
@@ -134,7 +138,7 @@ ul {
     padding-right: 15px;
 }
 
-#exCollapsingNavbar2 {
+#navbarMenu {
     font-family: 'Nunito-Regular', Arial, sans-serif;
 }
 
@@ -159,6 +163,11 @@ ul {
 
 .navbar-toggler {
     color: white;
+}
+
+.form-inline .form-control {
+    width: 100%;
+    flex: 1;
 }
 
 /* SECTION FEATURES */
@@ -335,27 +344,13 @@ ul {
 .section-numbers {
     background-color: white;
     padding-top: 5rem;
-    /*padding-bottom: 5rem;*/
-}
-
-.section-numbers h2 {
-    text-align: center;
 }
 
 .num {
-    /*text-align: center;*/
-    /*margin-left: 80px;*/
     padding: 5rem 0;
-    /*  padding-bottom: 5rem;*/
-}
-
-.num .num-content {
-    /*display: table-cell;*/
-    /*vertical-align: middle;*/
 }
 
 .num-content {
-    /*display: table;*/
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -397,13 +392,12 @@ ul {
     flex-wrap: wrap;
 }
 
-.test-photo {
-    /*width: 100px;*/
+.testimonial-photo {
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
 
-.text-text {
+.testimonial-text {
     flex: 1 200px;
 }
 
@@ -621,14 +615,6 @@ footer p {
         font-size: 2.5rem;
     }
 }
-
-/*@media (max-width: 576px) {*/
-    /*!*.form-inline .form-control {*!*/
-        /*!*width: 100%;*!*/
-        /*!*flex: 1;*!*/
-    /*!*}*!*/
-
-/*}*/
 
 @media only screen and (max-width: 544px) {
     .wall-sticker {
