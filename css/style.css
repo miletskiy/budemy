@@ -36,7 +36,6 @@ h2 {
 /*SECTION COVER*/
 
 #cover {
-    /*height: 100%;*/
     background-image: url(../img/trees.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,19 +45,15 @@ h2 {
 }
 
 .wall-sticker {
-    /*padding: 8rem 20rem 6rem 3rem;*/
     font-family: 'Cubano-Regular', Arial, sans-serif;
     font-size: 5rem;
     color: white;
-    /*background: rgba(0, 0, 0, 0.4);*/
     margin: auto;
 }
 
 .moto {
     font-family: 'Cubano-Regular', Arial, sans-serif;
     font-size: 3rem;
-    /*margin-top: 8rem;*/
-    /*margin-left: 130px;*/
     text-align: center;
 }
 
@@ -88,7 +83,6 @@ h2 {
     border-radius: 5px;
     border: 1px solid rgba(19, 128, 26, 1);
     font-family: 'Nunito-Regular', Arial, sans-serif;
-    /*font-family: 'Arial';*/
     transition: 0.5s;
 }
 
@@ -104,8 +98,6 @@ h2 {
 }
 
 .fa-arrow-down {
-    /*margin-left: 28rem;*/
-    /*margin-top: 50px;*/
     font-size: 2.5rem;
     color: white;
 }
@@ -328,8 +320,6 @@ h2 {
 }
 
 .card img {
-    width: 100%;
-    height: 180px;
     transition: 1s;
 }
 
@@ -570,13 +560,6 @@ footer p {
 
 /* RESPONSIVENESS  */
 
-@media only screen and (max-width: 1680px) {
-    .wall-sticker {
-        font-size: 5rem;
-        /*padding: 16rem 20rem 10rem 3rem;*/
-    }
-}
-
 @media only screen and (max-width: 1200px) {
 
     .mario-img, .monka-img, .monice-img {
@@ -586,14 +569,15 @@ footer p {
 }
 
 @media only screen and (max-width: 992px) {
-    .container {
-        /*max-width: 840px;*/
+    .wall-sticker {
+        font-size: 4rem;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .container {
-        /*width: 600px;*/
+    .right-column {
+        padding-right: 0;
+        padding-left: 30px;
     }
 
     .testimonial {
@@ -603,12 +587,9 @@ footer p {
 }
 
 @media only screen and (max-width: 668px) {
-    .container {
-        /*max-width: 600px;*/
-    }
 
     .wall-sticker {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .moto {
@@ -619,12 +600,9 @@ footer p {
 @media only screen and (max-width: 544px) {
     .wall-sticker {
         font-size: 5rem;
-        /*padding: 8rem 0 4rem 2rem;*/
     }
 
     .mario-img, .monka-img, .monice-img {
         /*padding-bottom: 2rem;    << Do not delete >>   */
     }
-
-
 }
