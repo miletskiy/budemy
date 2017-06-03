@@ -398,7 +398,9 @@ ul {
 }
 
 .test-photo {
-    width: 100px;
+    /*width: 100px;*/
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 .text-text {
@@ -408,7 +410,7 @@ ul {
 .mario-img,
 .monka-img,
 .monice-img {
-    width: 115px;
+    width: 110px;
     height: auto;
     border-radius: 50%;
     transition: 0.5s;
@@ -584,33 +586,31 @@ footer p {
 @media only screen and (max-width: 1200px) {
 
     .mario-img, .monka-img, .monice-img {
-        width: 100px;
+        width: 130px;
     }
+
 }
 
 @media only screen and (max-width: 992px) {
     .container {
-        max-width: 840px;
-    }
-
-    .mario-img, .monka-img, .monice-img {
-        width: 80px;
+        /*max-width: 840px;*/
     }
 }
 
 @media only screen and (max-width: 768px) {
     .container {
-        max-width: 680px;
+        /*width: 600px;*/
     }
 
-    .mario-img, .monka-img, .monice-img {
-        width: 60px;
+    .testimonial {
+        margin-top: 2rem;
+        padding-bottom: 0;
     }
 }
 
 @media only screen and (max-width: 668px) {
     .container {
-        max-width: 600px;
+        /*max-width: 600px;*/
     }
 
     .wall-sticker {
@@ -622,12 +622,13 @@ footer p {
     }
 }
 
-@media (min-width: 576px) {
-    .form-inline .form-control {
-        width: 100%;
-        flex: 1;
-    }
-}
+/*@media (max-width: 576px) {*/
+    /*!*.form-inline .form-control {*!*/
+        /*!*width: 100%;*!*/
+        /*!*flex: 1;*!*/
+    /*!*}*!*/
+
+/*}*/
 
 @media only screen and (max-width: 544px) {
     .wall-sticker {
@@ -635,17 +636,9 @@ footer p {
         /*padding: 8rem 0 4rem 2rem;*/
     }
 
-    .text-center {
-        text-align: center;
-    }
-
     .mario-img, .monka-img, .monice-img {
-        width: 160px;
-        padding-bottom: 2rem;
+        /*padding-bottom: 2rem;    << Do not delete >>   */
     }
 
-    .testimonial {
-        margin-top: 2rem;
-        padding-bottom: 0;
-    }
+
 }
